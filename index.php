@@ -200,8 +200,12 @@
 						</span>
 						
 						<div class="pr">
-							<div class="col-sm-6">$</div>
-							<div class="col-sm-6">$$</div>
+							<div class="col-sm-6">
+								<label>Free</label>
+							</div>
+							<div class="col-sm-6">
+								<label>Shared</label>
+							</div>
 						</div>
 						
 						</div>
