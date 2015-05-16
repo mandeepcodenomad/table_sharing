@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+.fleft{float:left;}
+.fright{float:right;}
+.clear{clear:both;}
+.wrapper:after , .fld_o:after , .form_out:after , .form_inner_outer:after  , .pr:after{ clear:both; display:block; content:"";}
+a , a:active , a:hover  , a:visited , a:focus{ text-decoration:none; color:#000; font-family:arial ; outline:none !important;}
+.col-1 {width: 8.333333333333332%;}
+.col-2 {width: 16.666666666666664%;}
+.col-3 {width: 25%;}
+.col-4 { width: 33.33333333333333%; }
+.col-5 {width: 41.66666666666667%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.333333333333336%;}
+.col-8 {width: 66.66666666666666%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33333333333334%;}
+.col-11 {width: 91.66666666666666%;}
+.col-12 {width: 100%;}
+.col-13{ width:33%;}
+.wrapper{ width:1306px; background-color:#efefef ; border-top:#85ef52 solid 10px; margin:88px auto; min-height:400px;}
+body {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.logo_outer{ text-align:center; margin:100px auto;}
+.logo_outer a{}
+.logo_outer a img{}
+/*slider css start form here*/
+.loader_gif {position: absolute; display: block; background: url(../images/loading.gif) no-repeat center center; top: 0px; left: 0px; width: 100%;height: 100%;}
+.main_slider {cursor: move; position: absolute; left: 0px; top: 0px; width: 1100px; height: 500px; overflow: hidden;}
+.slider_container {position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1100px; height: 500px; overflow: hidden;}
+.shade {filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;}
+.loading {position: absolute; top: 0px; left: 0px;}
+.navigator {position: absolute; bottom: 26px; left: 6px;}
+.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {background: url(../images/b21.png) no-repeat;overflow: hidden;cursor: pointer;}
+.jssorb21 div {background-position: -5px -5px;}
+.jssorb21 div:hover, .jssorb21 .av:hover {background-position: -35px -5px;}
+.jssorb21 .av {background-position: -65px -5px;}
+.jssorb21 .dn, .jssorb21 .dn:hover {background-position: -95px -5px;}
+.dots {position: absolute;WIDTH: 19px;HEIGHT: 19px;text-align: center;line-height: 19px;color: White;font-size: 12px;}
+.jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn {position: absolute;cursor: pointer;display: block;background: url(../images/a21.png) center center no-repeat;overflow: hidden;}
+.jssora21l {background-position: -3px -33px;}
+.jssora21r {background-position: -63px -33px;}
+.jssora21l:hover {background-position: -123px -33px;}
+.jssora21r:hover {background-position: -183px -33px;}
+.jssora21ldn {background-position: -243px -33px;}
+.jssora21rdn {background-position: -303px -33px;}
+.left{width: 55px; height: 55px; top: 123px; left: 8px;}
+.right{width: 55px; height: 55px; top: 123px; right: 8px}
+
+
+/*form css start form here*/
+.l_from, .r_from {
+    background-image: url("../images/pat.png");
+    float: left;
+    margin: 30px 1%;
+    width: 48%;
+}
+
+.frmhead{
+margin:10px 0;
+}
+.fld_o {
+    margin-bottom: 10px;
+}
+.pr {
+    border: 1px solid #ccc;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 39px;
+}
+
+.low, .min, .high {
+    background: none repeat scroll 0 0 #f2f2f2;
+    border-radius: 100%;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin: 1px 12%;
+    text-align: center;
+    width: 35px;
+}
+.low:hover, .min:hover, .high:hover{background-color:#c4eeb2; cursor:pointer;}
+
+
+.form-control {
+    height: 41px !important;
+}
+
+.frmhead h1 {
+    color: #a57b59;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.tbs{ float: left;    margin: 10px 2%;    width: 96%;}
+.break   , .lun , .din{}
+.tb {
+    background-color:#f2f2f2;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+	font-family:arial;
+	color:#ada7a7;
+	font-size:16px;
+	position:relative;
+}
+.acc_tab , .tb:hover{
+background-color:#c4eeb2;
+cursor:pointer;	
+}
+.tb span {
+    display: block;
+    float: left;
+    left: 50%;
+    margin: 0 auto 0 -25%;
+    position: absolute;
+    text-align: right;
+}
+
+.form_inner_outer {
+    background-color: #fff;
+    margin: 25px auto;
+    min-height: 590px;
+    padding: 25px 15px;
+    width: 94%;
+}
+
+.sub_bt{ background-color:#b1d8a1 !important;}
+
+ .btn-primary {
+	background-image:-webkit-linear-gradient(top, #b1d8a1 0, #9ec88d 100%) !important;
+	background-image:-o-linear-gradient(top, #b1d8a1 0, #9ec88d 100%) !important;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#b1d8a1), to(#9ec88d)) !important;
+	background-image:linear-gradient(to bottom, #b1d8a1 0, #9ec88d 100%) !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0) !important;
+filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat:repeat-x;
+	border-color:#b1d8a1 !important;
+	padding:10px 20px !important;
+	float:right;
+	font-weight:bold !important;
+	text-transform:uppercase; text-shadow:none !important;
+}
+.btn-primary:focus, .btn-primary:hover {
+	background-color:#9ec88d;
+	background-position:0 -25px
+}
+.btn.btn-default {
+    height: 45px;
+    line-height: 24px;
+}
+/*form css end here*/
+
+
+
+/*footer css start from here*/
+.foo_inner {
+    float: none !important;
+    margin: 0 auto !important;
+}
+.foohd {
+    color: #726c6c;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.foo_inner{}
+.foo_inner ul{ margin:0px; padding:0px; list-style:none;}
+.foo_inner ul li { margin:10px 0;}
+.foo_inner ul li a{ text-decoration:none; color:#726c6c;}
+.foo_inner ul li a:hover{ color:#000;}
+.social {
+    display: block;
+    float: left;
+    height: 20px;
+    margin-right: 6px;
+    width: 20px;
+}
+
+.tw{ background-image:url("../images/twtr.png");}
+.fb{ background-image:url("../images/fb.png");}
+.rss{ background-image:url("../images/rss.png");}
+.social {
+    display: block;
+    float: left;
+    height: 20px;
+    margin-right: 6px;
+    width: 20px;
+}
+.cp {
+    display: block;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+.address {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width :320px){
+}
+@media screen and (min-width :321px) and (max-width :384px) {
+}
+
